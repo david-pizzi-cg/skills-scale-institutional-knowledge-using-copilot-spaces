@@ -10,7 +10,7 @@
   - [ ] Define security acceptance criteria for the feature
 
 - [ ] **Security Planning**
-  - [ ] Assess regulatory compliance requirements (GDPR, SOC2, etc.)
+  - [ ] Assess regulatory compliance requirements (GDPR, SOC 2, etc.)
   - [ ] Plan security testing approach
   - [ ] Coordinate with development team on secure coding practices
   - [ ] Review third-party integrations for security implications
