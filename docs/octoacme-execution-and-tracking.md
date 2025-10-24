@@ -16,6 +16,18 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Run automated tests and linting in CI before requesting review
   - Require at least one approval before merging (or team-defined policy)
 
+### UX Integration Points
+- **Feature Planning**: UX Designer creates wireframes and user flow documentation before development begins
+- **Development**: Progressive UX reviews during implementation to ensure design compliance
+- **Pre-Release**: Usability testing and UX sign-off required for user-facing features
+- Use [UX Review Checklist](templates/ux-review-checklist.md) for comprehensive UX validation
+
+### Security Integration Points
+- **Pre-Development**: Security Lead conducts threat modeling for new features
+- **Development**: Security scanning in CI with Security Lead review for security-sensitive changes
+- **Pre-Release**: Security validation and sign-off required before deployment
+- Use [Security Checklist](templates/security-checklist.md) for comprehensive security validation
+
 ## Quality & Testing
 - Unit tests for new logic
 - Integration tests where applicable
@@ -32,6 +44,11 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Level 1: Team-level triage in daily standup
 - Level 2: PM escalates to Product Lead and dependent teams
 - Level 3: Sponsor-level escalation for business-impacting issues
+
+### UX/Security Blocker Escalation
+- **UX Issues**: UX Designer escalates usability blockers to Product Manager; accessibility compliance issues escalate to project sponsor
+- **Security Issues**: Security Lead escalates vulnerabilities based on severity; critical security issues require immediate project sponsor notification
+- **Cross-Functional**: PM coordinates escalation when UX or security issues impact project timeline or scope
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
